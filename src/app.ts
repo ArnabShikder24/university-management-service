@@ -14,7 +14,7 @@ app.use('/api/v1/users', userRouter)
 app.get('/', async (req: Request, res: Response) => {
   res.send({
     status: true,
-    message: 'server running...',
+    message: 'Server Successfully Run',
   })
 })
 
