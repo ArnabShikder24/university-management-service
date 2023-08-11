@@ -4,6 +4,13 @@ import {
   IAcademicSemesterTitle,
 } from './academicSemester.interface';
 
+export const academicSemesterTitle: IAcademicSemesterTitle[] = [
+  'Autumn',
+  'Summer',
+  'Fall',
+];
+export const academicSemesterCode: IAcademicSemesterCode[] = ['01', '02', '03'];
+
 export const academicSemesterMonths: IAcademicSemesterMonth[] = [
   'January',
   'February',
@@ -18,10 +25,3 @@ export const academicSemesterMonths: IAcademicSemesterMonth[] = [
   'November',
   'December',
 ];
-
-export const academicSemesterTitle: IAcademicSemesterTitle[] = [
-  'Autumn',
-  'Summer',
-  'Fall',
-];
-export const academicSemesterCode: IAcademicSemesterCode[] = ['01', '02', '03'];
